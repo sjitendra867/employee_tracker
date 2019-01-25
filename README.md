@@ -16,6 +16,10 @@ venv/bin/activate
 pip3 install Flask
 pip3 install Flask-RESTful 
 
+##For Database
+create database as emp_tracker in mysql
+and change login credentials in helpers/ConnectionHelper.py file
+
 ##API Descriptions :-
 
 Base URL :- As of now base URL is http://localhost:5000/
